@@ -10,6 +10,6 @@ public class Main {
         NoGenericMethods obj2 = new NoGenericMethods("Tercero", "Primero", "Segundo");
         System.out.println("Obj 2:");
         obj2.mostrarValores();
-        
+
     }
 }
