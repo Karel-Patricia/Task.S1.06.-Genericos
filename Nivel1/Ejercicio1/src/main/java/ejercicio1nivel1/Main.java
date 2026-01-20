@@ -3,13 +3,12 @@ package ejercicio1nivel1;
 public class Main {
     public static void main(String[] args) {
 
-        NoGenericMethods obj1 = new NoGenericMethods("Primero", "Segundo", "Tercero");
+        NoGenericMethods obj1 = new NoGenericMethods("First", "Second", "Third");
         System.out.println("Obj 1:");
-        obj1.mostrarValores();
+        obj1.displayValues();
 
-        NoGenericMethods obj2 = new NoGenericMethods("Tercero", "Primero", "Segundo");
+        NoGenericMethods obj2 = new NoGenericMethods("Third", "First", "Second");
         System.out.println("Obj 2:");
-        obj2.mostrarValores();
-
+        obj2.displayValues();
     }
 }

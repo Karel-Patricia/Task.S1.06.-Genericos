@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Person person = new Person("Ana", "García", 30);
-        String text = "Bienvenido";
+        String text = "Welcome";
         int number = 100;
 
         GenericMethods.printElements(person, text, number);

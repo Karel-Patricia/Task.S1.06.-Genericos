@@ -23,10 +23,10 @@ public class NoGenericMethods {
         return element3;
     }
 
-    public void mostrarValores() {
-        System.out.println("Argumento 1: " + element1);
-        System.out.println("Argumento 2: " + element2);
-        System.out.println("Argumento 3: " + element3);
-        System.out.println("-----------------");
+    public void displayValues() {
+        System.out.println("Argument 1: " + element1 + "\n"
+                + "Argument 2: " + element2 + "\n"
+                + "Argument 3: " + element3 + "\n"
+                + "-----------------");
     }
 }

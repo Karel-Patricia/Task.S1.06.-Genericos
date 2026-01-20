@@ -1,27 +1,31 @@
-# Tarea S1.06 - Genéricos
+# Task S1.06 - Generics
 
 ## 📌 Nivel 1
 
-### Ejercicio 1 — Clase sin genéricos
+### Exercise 1 — Class without generics
 
-Crea una clase llamada NoGenericMethods que almacene tres argumentos del mismo tipo , junto con: un constructor que los inicialice, y métodos getElement1(), getElement2(), getElement3() para acceder a ellos.
-Comprueba que puedes pasar los argumentos en cualquier orden al constructor.
+Create a class called NoGenericMethods that stores three arguments of the same type, along with:
+
+- a constructor that initializes them, and
+- getter methods getElement1(), getElement2(), and getElement3() to access them.
+
+Verify that you can pass the arguments to the constructor in any order.
+This exercise is intended to later compare the behavior with a generic version.
 
 Este ejercicio sirve para comparar después el comportamiento con una versión genérica. 
 
-### Ejercicio 2 — Método genérico con parámetros diversos
-Crea una clase Person con los atributos name, surname y age. Después, crea una clase llamada GenericMethods con un método genérico llamado printElements()que acepte tres argumentos de tipo genérico y los imprima por pantalla.
+### Exercise 2 — Generic method with different parameters
+Create a class Person with the attributes name, surname, and age.
+Then, create a class called GenericMethods with a generic method named printElements() that accepts three generic-type arguments and prints them to the console.
 
-Al main()de la clase principal, llama a este método con diferentes tipos de parámetros (por ejemplo: un objeto Person, uno String y un valor numérico primitivo).
+In the main() method of the main class, call this method with different types of parameters (for example: a Person object, a String, and a primitive numeric value).
 
-Con este ejercicio verificarás que los métodos genéricos pueden aceptar cualquier combinación de tipos y en cualquier orden.
+With this exercise, you will verify that generic methods can accept any combination of types and in any order.
 
 
-## 🛠️Tecnologías
+## 🛠️ Technologies
 - IntelliJ IDEA 
 - Java 21
 - Maven
-- JUnit 5
-- AssertJ 
-- Git / GitHub 
+- Git & GitHub 
 
